@@ -4,8 +4,10 @@ describe('deli', () => {
   describe('takeANumber', () => {
     var katzDeli;
     var otherDeli;
+    var katzDeliLine;
 
     beforeEach(() => {
+      katzDeliLine = [];
       katzDeli = [];
       otherDeli = ["Steven", "Blake", "Avi"];
     });
